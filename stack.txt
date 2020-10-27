@@ -1,0 +1,20 @@
+Stack
+
+pop ,push,length,peek,
+
+var letter=[]; ths is our stack
+var word="racecar";
+var rword="";
+
+put lettes of word into stack
+for(var i=0;i<word;.length;i++){
+    letter.push(word[i]);
+
+} 
+for(var i=0;i<word;.length;i++){
+    rword +=letter.pop();
+
+} 
+if(rword === word){
+    console.log(word+"is a palidrome.");
+}
